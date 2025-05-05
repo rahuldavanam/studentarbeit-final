@@ -1,0 +1,522 @@
+**********************************************************************
+** Visual Studio 2019 Developer Command Prompt v16.11.33
+** Copyright (c) 2021 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community>cd..
+
+C:\Program Files (x86)\Microsoft Visual Studio\2019>cd..
+
+C:\Program Files (x86)\Microsoft Visual Studio>cdd.
+'cdd.' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Program Files (x86)\Microsoft Visual Studio>cd..
+
+C:\Program Files (x86)>cd..
+
+C:\>cd carla
+
+C:\carla>make PythonAPI
+-[Setup]: [Batch params]: --boost-toolset msvc-14.2 --all
+-[Setup]: Asynchronous jobs:  8
+-[Setup]: Boost toolset:      msvc-14.2
+-[Setup]: Install directory:  "C:\carla\Build\"
+-[Setup]: Installing zlib...
+    -[install_zlib]: [Batch params]: --build-dir "C:\carla\Build\"
+    -[install_zlib]: A zlib installation already exists.
+    -[install_zlib]: Delete "C:\carla\Build\zlib-install\" if you want to force a rebuild.
+    -[install_zlib]: Exiting...
+-[Setup]: Installing libpng...
+    -[install_libpng]: [Batch params]: --build-dir "C:\carla\Build\" --zlib-install-dir "C:\carla\Build\zlib-install\"
+    -[install_libpng]: A libpng installation already exists.
+    -[install_libpng]: Delete "C:\carla\Build\libpng-1.2.37-install\" if you want to force a rebuild.
+    -[install_libpng]: Exiting...
+-[Setup]: Installing rpclib...
+    -[install_rpclib]: [Batch params]: --build-dir "C:\carla\Build\"
+    -[install_rpclib]: A rpclib installation already exists.
+    -[install_rpclib]: Delete "C:\carla\Build\rpclib-install\" if you want to force a rebuild.
+    -[install_rpclib]: Exiting...
+-[Setup]: Installing Google Test...
+    -[install_gtest]: [Batch params]: --build-dir "C:\carla\Build\"
+    -[install_gtest]: A Google Test installation already exists.
+    -[install_gtest]: Delete "C:\carla\Build\gtest-install\" if you want to force a rebuild.
+    -[install_gtest]: Exiting...
+-[Setup]: Installing "Recast & Detour"...
+    -[install_recast]: [Batch params]: --build-dir "C:\carla\Build\"
+    -[install_recast]: A "Recast & Detour" installation already exists.
+    -[install_recast]: Delete "C:\carla\Build\recast-0b13b0-install\" if you want to force a rebuild.
+    -[install_recast]: Exiting...
+-[Setup]: Installing Boost...
+    -[install_boost]: [Batch params]: --build-dir "C:\carla\Build\" --toolset msvc-14.2 --version 1.80.0 -j 8
+    -[install_boost]: A Boost installation already exists.
+    -[install_boost]: Delete "C:\carla\Build\boost-1.80.0-install\" if you want to force a rebuild.
+    -[install_boost]: Exiting...
+-[Setup]: Installing Xercesc...
+    -[install_xercesc]: [Batch params]: --build-dir "C:\carla\Build\"
+    -[install_xercesc]: A xerces installation already exists.
+    -[install_xercesc]: Delete "C:\carla\Build\xerces-c-3.2.3-install\" if you want to force a rebuild.
+    -[install_xercesc]: Exiting...
+        1 file(s) copied.
+-[Setup]: Installing Sqlite3
+    -[install_sqlite3]: [Batch params]: --build-dir "C:\carla\Build\"
+    -[install_sqlite3]: A Sqlite3 installation already exists.
+    -[install_sqlite3]: Delete "C:\carla\Build\sqlite3-install" if you want to force a rebuild.
+    -[install_sqlite3]: Exiting...
+        1 file(s) copied.
+-[Setup]: Installing PROJ
+    -[install_proj]: [Batch params]: --build-dir "C:\carla\Build\"
+    -[install_proj]: A PROJ installation already exists.
+    -[install_proj]: Delete "C:\carla\Build\proj-install" if you want to force a rebuild.
+    -[install_proj]: Exiting...
+        1 file(s) copied.
+-[Setup]: Installing Eigen
+    -[install_eigen]: [Batch params]: --build-dir "C:\carla\Build\"
+0 File(s) copied
+0 File(s) copied
+        1 file(s) copied.
+        1 file(s) copied.
+
+    -[install_eigen]: Eigen has been successfully installed in "C:\carla\Build\eigen-install"!
+    -[install_eigen]: Exiting...
+-[Setup]: Creating "CMakeLists.txt.in"...
+-[Setup]:
+   ###########
+   # SUCCESS #
+   ###########
+
+   IMPORTANT!
+
+   All the CARLA library dependences should be installed now.
+   (You can remove all "*-src" folders in C:\carla\Build\ directory)
+
+   You only need the ASSET PACK with all the meshes and textures.
+
+   This script provides the assets for CARLA 0.9.14:
+   You can download the assets from here:
+
+       http://carla-assets.s3.amazonaws.com/20221201_5ec9328.tar.gz
+
+   Unzip it in the "C:\carla\Unreal\CarlaUE4\Content\Carla\" folder.
+   If you want another version, search it in C:\carla\Util\ContentVersions.txt.
+
+-[BuildLibCarla]: [Batch params]: --server --client
+-- Selecting Windows SDK version 10.0.20348.0 to target Windows 10.0.19045.
+-- Build debug:   ON
+-- Build release: ON
+-- Build test:    ON
+-- Configuring done (0.8s)
+-- Generating done (0.8s)
+-- Build files have been written to: C:/carla/Build/libcarla-visualstudio
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  1>Checking Build System
+  carla_server.vcxproj -> C:\carla\Build\libcarla-visualstudio\LibCarla\cmake\server\Release\carla_server.lib
+  carla_server_debug.vcxproj -> C:\carla\Build\libcarla-visualstudio\LibCarla\cmake\server\Release\carla_server_debug.lib
+  1>
+  -- Install configuration: "Release"
+-- Selecting Windows SDK version 10.0.20348.0 to target Windows 10.0.19045.
+-- Build debug:   ON
+-- Build release: ON
+-- Build test:    ON
+-- Configuring done (0.8s)
+-- Generating done (1.0s)
+-- Build files have been written to: C:/carla/Build/libcarla-visualstudio
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  1>Checking Build System
+  carla_client.vcxproj -> C:\carla\Build\libcarla-visualstudio\LibCarla\cmake\client\Release\carla_client.lib
+  carla_client_debug.vcxproj -> C:\carla\Build\libcarla-visualstudio\LibCarla\cmake\client\Release\carla_client_debug.lib
+  1>
+  -- Install configuration: "Release"
+-[BuildLibCarla]: LibCarla server has been successfully installed in "C:\carla\Unreal\CarlaUE4\Plugins\Carla\CarlaDependencies\"!
+-[BuildLibCarla]: LibCarla client has been successfully installed in "C:\carla\PythonAPI\carla\dependencies\"!
+-[BuildOSM2ODR]: [Batch params]: --build --all
+HEAD is now at ee0c2b9241f Removed debug warnings
+CMake Warning (dev) at CMakeLists.txt:23 (project):
+  cmake_minimum_required() should be called prior to this top-level project()
+  call.  Please see the cmake-commands(7) manual for usage documentation of
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Selecting Windows SDK version 10.0.20348.0 to target Windows 10.0.19045.
+CMake Deprecation Warning at CMakeLists.txt:25 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- CMAKE_BINARY_DIR: C:/carla/Build/osm2odr-visualstudio
+-- CMAKE_SOURCE_DIR: C:/carla/Build/om2odr-source
+--
+-- Platform:
+--     Host: Windows-10.0.19045 AMD64
+--     Target: Windows-10.0.19045 AMD64
+--     CMake: 3.28.1
+--     CMake generator: Visual Studio 16 2019
+--     CMake build tool: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe
+--     Compiler: MSVC 19.29.30153.0
+--
+-- Found Proj: C:/carla/Build/proj-install/lib/proj.lib
+-- Enabled features: Windows-10.0.19045 AMD64 MSVC 19.29.30153.0 Release Proj
+-- Configuring done (1.1s)
+-- Generating done (0.5s)
+-- Build files have been written to: C:/carla/Build/osm2odr-visualstudio
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  osm2odr.vcxproj -> C:\carla\Build\osm2odr-visualstudio\src\Release\osm2odr.lib
+  1>
+  -- Install configuration: "Release"
+-[BuildOSM2ODR]: OSM2ODR has been successfully installed in "C:\carla\PythonAPI\carla\dependencies\"
+-[BuildPythonAPI]: [Batch params]: --py3
+Building Python API for Python 3.
+compiling:
+  - source/libcarla/libcarla.cpp
+running bdist_egg
+running egg_info
+writing source\carla.egg-info\PKG-INFO
+writing dependency_links to source\carla.egg-info\dependency_links.txt
+writing top-level names to source\carla.egg-info\top_level.txt
+reading manifest file 'source\carla.egg-info\SOURCES.txt'
+writing manifest file 'source\carla.egg-info\SOURCES.txt'
+installing library code to build\bdist.win-amd64\egg
+C:\Users\Student\Lib\site-packages\setuptools\command\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+running build_py
+running build_ext
+creating build\bdist.win-amd64\egg
+creating build\bdist.win-amd64\egg\carla
+copying build\lib.win-amd64-cpython-311\carla\command.py -> build\bdist.win-amd64\egg\carla
+copying build\lib.win-amd64-cpython-311\carla\libcarla.cp311-win_amd64.pyd -> build\bdist.win-amd64\egg\carla
+copying build\lib.win-amd64-cpython-311\carla\__init__.py -> build\bdist.win-amd64\egg\carla
+byte-compiling build\bdist.win-amd64\egg\carla\command.py to command.cpython-311.pyc
+byte-compiling build\bdist.win-amd64\egg\carla\__init__.py to __init__.cpython-311.pyc
+creating stub loader for carla\libcarla.cp311-win_amd64.pyd
+byte-compiling build\bdist.win-amd64\egg\carla\libcarla.py to libcarla.cpython-311.pyc
+creating build\bdist.win-amd64\egg\EGG-INFO
+copying source\carla.egg-info\PKG-INFO -> build\bdist.win-amd64\egg\EGG-INFO
+copying source\carla.egg-info\SOURCES.txt -> build\bdist.win-amd64\egg\EGG-INFO
+copying source\carla.egg-info\dependency_links.txt -> build\bdist.win-amd64\egg\EGG-INFO
+copying source\carla.egg-info\top_level.txt -> build\bdist.win-amd64\egg\EGG-INFO
+writing build\bdist.win-amd64\egg\EGG-INFO\native_libs.txt
+zip_safe flag not set; analyzing archive contents...
+carla.__pycache__.libcarla.cpython-311: module references __file__
+creating 'dist\carla-0.9.14-py3.11-win-amd64.egg' and adding 'build\bdist.win-amd64\egg' to it
+removing 'build\bdist.win-amd64\egg' (and everything under it)
+running bdist_wheel
+running build
+running build_ext
+installing to build\bdist.win-amd64\wheel
+running install
+running install_lib
+creating build\bdist.win-amd64\wheel
+creating build\bdist.win-amd64\wheel\carla
+copying build\lib.win-amd64-cpython-311\carla\command.py -> build\bdist.win-amd64\wheel\.\carla
+copying build\lib.win-amd64-cpython-311\carla\libcarla.cp311-win_amd64.pyd -> build\bdist.win-amd64\wheel\.\carla
+copying build\lib.win-amd64-cpython-311\carla\__init__.py -> build\bdist.win-amd64\wheel\.\carla
+running install_egg_info
+Copying source\carla.egg-info to build\bdist.win-amd64\wheel\.\carla-0.9.14-py3.11.egg-info
+running install_scripts
+C:\Users\Student\Lib\site-packages\wheel\bdist_wheel.py:108: RuntimeWarning: Config variable 'Py_DEBUG' is unset, Python ABI tag may be incorrect
+  if get_flag("Py_DEBUG", hasattr(sys, "gettotalrefcount"), warn=(impl == "cp")):
+creating build\bdist.win-amd64\wheel\carla-0.9.14.dist-info\WHEEL
+creating 'dist\carla-0.9.14-cp311-cp311-win_amd64.whl' and adding 'build\bdist.win-amd64\wheel' to it
+adding 'carla/__init__.py'
+adding 'carla/command.py'
+adding 'carla/libcarla.cp311-win_amd64.pyd'
+adding 'carla-0.9.14.dist-info/METADATA'
+adding 'carla-0.9.14.dist-info/WHEEL'
+adding 'carla-0.9.14.dist-info/top_level.txt'
+adding 'carla-0.9.14.dist-info/RECORD'
+removing build\bdist.win-amd64\wheel
+
+-[BuildPythonAPI]: Carla lib for python has been successfully installed in "C:\carla\PythonAPI\carla\dist"!
+
+C:\carla>make launch
+-[Setup]: [Batch params]: --boost-toolset msvc-14.2 --all
+-[Setup]: Asynchronous jobs:  8
+-[Setup]: Boost toolset:      msvc-14.2
+-[Setup]: Install directory:  "C:\carla\Build\"
+-[Setup]: Installing zlib...
+    -[install_zlib]: [Batch params]: --build-dir "C:\carla\Build\"
+    -[install_zlib]: A zlib installation already exists.
+    -[install_zlib]: Delete "C:\carla\Build\zlib-install\" if you want to force a rebuild.
+    -[install_zlib]: Exiting...
+-[Setup]: Installing libpng...
+    -[install_libpng]: [Batch params]: --build-dir "C:\carla\Build\" --zlib-install-dir "C:\carla\Build\zlib-install\"
+    -[install_libpng]: A libpng installation already exists.
+    -[install_libpng]: Delete "C:\carla\Build\libpng-1.2.37-install\" if you want to force a rebuild.
+    -[install_libpng]: Exiting...
+-[Setup]: Installing rpclib...
+    -[install_rpclib]: [Batch params]: --build-dir "C:\carla\Build\"
+    -[install_rpclib]: A rpclib installation already exists.
+    -[install_rpclib]: Delete "C:\carla\Build\rpclib-install\" if you want to force a rebuild.
+    -[install_rpclib]: Exiting...
+-[Setup]: Installing Google Test...
+    -[install_gtest]: [Batch params]: --build-dir "C:\carla\Build\"
+    -[install_gtest]: A Google Test installation already exists.
+    -[install_gtest]: Delete "C:\carla\Build\gtest-install\" if you want to force a rebuild.
+    -[install_gtest]: Exiting...
+-[Setup]: Installing "Recast & Detour"...
+    -[install_recast]: [Batch params]: --build-dir "C:\carla\Build\"
+    -[install_recast]: A "Recast & Detour" installation already exists.
+    -[install_recast]: Delete "C:\carla\Build\recast-0b13b0-install\" if you want to force a rebuild.
+    -[install_recast]: Exiting...
+-[Setup]: Installing Boost...
+    -[install_boost]: [Batch params]: --build-dir "C:\carla\Build\" --toolset msvc-14.2 --version 1.80.0 -j 8
+    -[install_boost]: A Boost installation already exists.
+    -[install_boost]: Delete "C:\carla\Build\boost-1.80.0-install\" if you want to force a rebuild.
+    -[install_boost]: Exiting...
+-[Setup]: Installing Xercesc...
+    -[install_xercesc]: [Batch params]: --build-dir "C:\carla\Build\"
+    -[install_xercesc]: A xerces installation already exists.
+    -[install_xercesc]: Delete "C:\carla\Build\xerces-c-3.2.3-install\" if you want to force a rebuild.
+    -[install_xercesc]: Exiting...
+        1 file(s) copied.
+-[Setup]: Installing Sqlite3
+    -[install_sqlite3]: [Batch params]: --build-dir "C:\carla\Build\"
+    -[install_sqlite3]: A Sqlite3 installation already exists.
+    -[install_sqlite3]: Delete "C:\carla\Build\sqlite3-install" if you want to force a rebuild.
+    -[install_sqlite3]: Exiting...
+        1 file(s) copied.
+-[Setup]: Installing PROJ
+    -[install_proj]: [Batch params]: --build-dir "C:\carla\Build\"
+    -[install_proj]: A PROJ installation already exists.
+    -[install_proj]: Delete "C:\carla\Build\proj-install" if you want to force a rebuild.
+    -[install_proj]: Exiting...
+        1 file(s) copied.
+-[Setup]: Installing Eigen
+    -[install_eigen]: [Batch params]: --build-dir "C:\carla\Build\"
+0 File(s) copied
+0 File(s) copied
+        1 file(s) copied.
+        1 file(s) copied.
+
+    -[install_eigen]: Eigen has been successfully installed in "C:\carla\Build\eigen-install"!
+    -[install_eigen]: Exiting...
+-[Setup]: Creating "CMakeLists.txt.in"...
+-[Setup]:
+   ###########
+   # SUCCESS #
+   ###########
+
+   IMPORTANT!
+
+   All the CARLA library dependences should be installed now.
+   (You can remove all "*-src" folders in C:\carla\Build\ directory)
+
+   You only need the ASSET PACK with all the meshes and textures.
+
+   This script provides the assets for CARLA 0.9.14:
+   You can download the assets from here:
+
+       http://carla-assets.s3.amazonaws.com/20221201_5ec9328.tar.gz
+
+   Unzip it in the "C:\carla\Unreal\CarlaUE4\Content\Carla\" folder.
+   If you want another version, search it in C:\carla\Util\ContentVersions.txt.
+
+-[BuildLibCarla]: [Batch params]: --server --client
+-- Selecting Windows SDK version 10.0.20348.0 to target Windows 10.0.19045.
+-- Build debug:   ON
+-- Build release: ON
+-- Build test:    ON
+-- Configuring done (0.8s)
+-- Generating done (0.8s)
+-- Build files have been written to: C:/carla/Build/libcarla-visualstudio
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  1>Checking Build System
+  carla_server.vcxproj -> C:\carla\Build\libcarla-visualstudio\LibCarla\cmake\server\Release\carla_server.lib
+  carla_server_debug.vcxproj -> C:\carla\Build\libcarla-visualstudio\LibCarla\cmake\server\Release\carla_server_debug.lib
+  1>
+  -- Install configuration: "Release"
+-- Selecting Windows SDK version 10.0.20348.0 to target Windows 10.0.19045.
+-- Build debug:   ON
+-- Build release: ON
+-- Build test:    ON
+-- Configuring done (0.8s)
+-- Generating done (1.0s)
+-- Build files have been written to: C:/carla/Build/libcarla-visualstudio
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  1>Checking Build System
+  carla_client.vcxproj -> C:\carla\Build\libcarla-visualstudio\LibCarla\cmake\client\Release\carla_client.lib
+  carla_client_debug.vcxproj -> C:\carla\Build\libcarla-visualstudio\LibCarla\cmake\client\Release\carla_client_debug.lib
+  1>
+  -- Install configuration: "Release"
+-[BuildLibCarla]: LibCarla server has been successfully installed in "C:\carla\Unreal\CarlaUE4\Plugins\Carla\CarlaDependencies\"!
+-[BuildLibCarla]: LibCarla client has been successfully installed in "C:\carla\PythonAPI\carla\dependencies\"!
+-[BuildCarlaUE4]: [Batch params]: --build --all
+--build
+--all
+ECHO is off.
+-[BuildCarlaUE4]: Building Unreal Editor...
+Building CarlaUE4Editor...
+Using Visual Studio 2019 14.29.30153 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.20348.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Upgrade]
+[Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in CarlaUE4Editor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[Upgrade]
+Building 16 actions with 8 processes...
+  [1/16] Module.Carla.gen.6_of_8.cpp
+  C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um\winnt.h(610): warning C4005: 'TEXT': macro redefinition
+  C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(120): warning C4996: 'UWheeledVehicleMovementComponent': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(148): warning C4996: 'UVehicleWheel': PhysX is deprecated. Use the UChaosVehicleWheel from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Vehicle/CarlaWheeledVehicle.h(70): warning C4996: 'AWheeledVehicle': PhysX is deprecated. Use the AWheeledVehiclePawn from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Vehicle/CarlaWheeledVehicle.h(186): warning C4996: 'UWheeledVehicleMovementComponent4W': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Sensor/SceneCaptureSensor.h(15): fatal error C1083: Cannot open include file: 'Renderer/Public/GBufferView.h': No such file or directory
+  [2/16] Module.Carla.gen.3_of_8.cpp
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(120): warning C4996: 'UWheeledVehicleMovementComponent': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(148): warning C4996: 'UVehicleWheel': PhysX is deprecated. Use the UChaosVehicleWheel from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\CarlaWheeledVehicle.h(70): warning C4996: 'AWheeledVehicle': PhysX is deprecated. Use the AWheeledVehiclePawn from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\CarlaWheeledVehicle.h(186): warning C4996: 'UWheeledVehicleMovementComponent4W': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um\winnt.h(610): warning C4005: 'TEXT': macro redefinition
+  C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Sensor/SceneCaptureSensor.h(15): fatal error C1083: Cannot open include file: 'Renderer/Public/GBufferView.h': No such file or directory
+  [3/16] Module.Carla.gen.5_of_8.cpp
+  C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um\winnt.h(610): warning C4005: 'TEXT': macro redefinition
+  C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(120): warning C4996: 'UWheeledVehicleMovementComponent': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(148): warning C4996: 'UVehicleWheel': PhysX is deprecated. Use the UChaosVehicleWheel from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Vehicle/CarlaWheeledVehicle.h(70): warning C4996: 'AWheeledVehicle': PhysX is deprecated. Use the AWheeledVehiclePawn from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Vehicle/CarlaWheeledVehicle.h(186): warning C4996: 'UWheeledVehicleMovementComponent4W': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Sensor/SceneCaptureSensor.h(15): fatal error C1083: Cannot open include file: 'Renderer/Public/GBufferView.h': No such file or directory
+  [4/16] Module.Carla.4_of_4.cpp
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(120): warning C4996: 'UWheeledVehicleMovementComponent': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(148): warning C4996: 'UVehicleWheel': PhysX is deprecated. Use the UChaosVehicleWheel from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Vehicle/CarlaWheeledVehicle.h(70): warning C4996: 'AWheeledVehicle': PhysX is deprecated. Use the AWheeledVehiclePawn from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Vehicle/CarlaWheeledVehicle.h(186): warning C4996: 'UWheeledVehicleMovementComponent4W': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um\winnt.h(610): warning C4005: 'TEXT': macro redefinition
+  C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/ChronoMovementComponent.cpp(356): warning C4996: 'AWheeledVehicle::GetMesh': PhysX is deprecated. Use the AWheeledVehiclePawn from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/ChronoMovementComponent.cpp(358): warning C4996: 'AWheeledVehicle::GetMesh': PhysX is deprecated. Use the AWheeledVehiclePawn from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/DefaultMovementComponent.cpp(25): warning C4996: 'AWheeledVehicle::GetVehicleMovementComponent': PhysX is deprecated. Use the AWheeledVehiclePawn from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/DefaultMovementComponent.cpp(26): warning C4996: 'UWheeledVehicleMovementComponent::SetThrottleInput': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/DefaultMovementComponent.cpp(27): warning C4996: 'UWheeledVehicleMovementComponent::SetSteeringInput': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/DefaultMovementComponent.cpp(28): warning C4996: 'UWheeledVehicleMovementComponent::SetBrakeInput': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/DefaultMovementComponent.cpp(29): warning C4996: 'UWheeledVehicleMovementComponent::SetHandbrakeInput': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/DefaultMovementComponent.cpp(32): warning C4996: 'UWheeledVehicleMovementComponent::SetUseAutoGears': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/DefaultMovementComponent.cpp(33): warning C4996: 'UWheeledVehicleMovementComponent::SetTargetGear': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/DefaultMovementComponent.cpp(37): warning C4996: 'UWheeledVehicleMovementComponent::SetUseAutoGears': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/DefaultMovementComponent.cpp(40): warning C4996: 'UWheeledVehicleMovementComponent::SetTargetGear': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/DefaultMovementComponent.cpp(43): warning C4996: 'UWheeledVehicleMovementComponent::GetCurrentGear': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/DefaultMovementComponent.cpp(50): warning C4996: 'UWheeledVehicleMovementComponent::GetCurrentGear': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/MovementComponents/DefaultMovementComponent.cpp(55): warning C4996: 'UWheeledVehicleMovementComponent::GetForwardSpeed': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(64): warning C4996: 'UWheeledVehicleMovementComponent::WheelSetups': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(67): warning C4996: 'UWheeledVehicleMovementComponent::IdleBrakeInput': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(14): warning C4996: 'UWheeledVehicleMovementComponent::UWheeledVehicleMovementComponent': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(73): warning C4996: 'UWheeledVehicleMovementComponent::PostEditChangeProperty': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(209): warning C4996: 'UWheeledVehicleMovementComponent::WheelSetups': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(211): warning C4996: 'UWheeledVehicleMovementComponent::PVehicle': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(212): warning C4996: 'UWheeledVehicleMovementComponent::PVehicleDrive': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(216): warning C4996: 'UWheeledVehicleMovementComponent::WheelSetups': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(218): warning C4996: 'UWheeledVehicleMovementComponent::WheelSetups': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(232): warning C4996: 'UWheeledVehicleMovementComponent::WheelSetups': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(240): warning C4996: 'UWheeledVehicleMovementComponent::WheelSetups': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(266): warning C4996: 'UWheeledVehicleMovementComponent::PVehicle': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(267): warning C4996: 'UWheeledVehicleMovementComponent::PVehicleDrive': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(226): warning C4996: 'UWheeledVehicleMovementComponent::SetupVehicleShapes': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(229): warning C4996: 'UWheeledVehicleMovementComponent::SetupVehicleMass': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(233): warning C4996: 'UWheeledVehicleMovementComponent::SetupWheels': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(269): warning C4996: 'UWheeledVehicleMovementComponent::SetUseAutoGears': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(275): warning C4996: 'UWheeledVehicleMovementComponent::PVehicleDrive': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(283): warning C4996: 'UWheeledVehicleMovementComponent::ThrottleInput': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(284): warning C4996: 'UWheeledVehicleMovementComponent::SteeringInput': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(285): warning C4996: 'UWheeledVehicleMovementComponent::BrakeInput': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(286): warning C4996: 'UWheeledVehicleMovementComponent::HandbrakeInput': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(288): warning C4996: 'UWheeledVehicleMovementComponent::PVehicleDrive': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(290): warning C4996: 'UWheeledVehicleMovementComponent::bRawGearUpInput': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(291): warning C4996: 'UWheeledVehicleMovementComponent::bRawGearDownInput': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(305): warning C4996: 'UWheeledVehicleMovementComponent::ThrottleInputRate': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(306): warning C4996: 'UWheeledVehicleMovementComponent::ThrottleInputRate': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(309): warning C4996: 'UWheeledVehicleMovementComponent::PVehicleDrive': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(316): warning C4996: 'UWheeledVehicleMovementComponent::PVehicleDrive': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(321): warning C4996: 'UWheeledVehicleMovementComponent::PVehicleDrive': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(328): warning C4996: 'UWheeledVehicleMovementComponent::PVehicleDrive': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(333): warning C4996: 'UWheeledVehicleMovementComponent::PVehicleDrive': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(340): warning C4996: 'UWheeledVehicleMovementComponent::PVehicleDrive': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(348): warning C4996: 'UWheeledVehicleMovementComponent::PVehicleDrive': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(364): warning C4996: 'UWheeledVehicleMovementComponent::Serialize': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(391): warning C4996: 'UWheeledVehicleMovementComponent::MaxEngineRPM': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(390): warning C4996: 'UWheeledVehicleMovementComponent::ComputeConstants': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(394): warning C4996: 'UVehicleWheel': PhysX is deprecated. Use the UChaosVehicleWheel from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Vehicle/WheeledVehicleMovementComponentNW.cpp(396): warning C4996: 'UVehicleWheel::WheelIndex': PhysX is deprecated. Use the UChaosVehicleWheel from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Walker/WalkerController.cpp(27): warning C4458: declaration of 'Character' hides class member
+  C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(76): note: see declaration of 'AController::Character'
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Walker/WalkerController.cpp(53): warning C4458: declaration of 'Character' hides class member
+  C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(76): note: see declaration of 'AController::Character'
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Walker/WalkerController.cpp(88): warning C4458: declaration of 'Character' hides class member
+  C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(76): note: see declaration of 'AController::Character'
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Walker/WalkerController.cpp(129): warning C4458: declaration of 'Character' hides class member
+  C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(76): note: see declaration of 'AController::Character'
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Walker/WalkerController.cpp(149): warning C4458: declaration of 'Character' hides class member
+  C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(76): note: see declaration of 'AController::Character'
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Walker/WalkerController.cpp(172): warning C4458: declaration of 'Character' hides class member
+  C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(76): note: see declaration of 'AController::Character'
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Sensor/SceneCaptureSensor.h(15): fatal error C1083: Cannot open include file: 'Renderer/Public/GBufferView.h': No such file or directory
+  [5/16] Module.Carla.3_of_4.cpp
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(120): warning C4996: 'UWheeledVehicleMovementComponent': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(148): warning C4996: 'UVehicleWheel': PhysX is deprecated. Use the UChaosVehicleWheel from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle/CarlaWheeledVehicle.h(70): warning C4996: 'AWheeledVehicle': PhysX is deprecated. Use the AWheeledVehiclePawn from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle/CarlaWheeledVehicle.h(186): warning C4996: 'UWheeledVehicleMovementComponent4W': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um\winnt.h(610): warning C4005: 'TEXT': macro redefinition
+  C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Sensor/SceneCaptureSensor.h(15): fatal error C1083: Cannot open include file: 'Renderer/Public/GBufferView.h': No such file or directory
+  [6/16] Module.Carla.gen.2_of_8.cpp
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(120): warning C4996: 'UWheeledVehicleMovementComponent': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(148): warning C4996: 'UVehicleWheel': PhysX is deprecated. Use the UChaosVehicleWheel from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Vehicle/CarlaWheeledVehicle.h(70): warning C4996: 'AWheeledVehicle': PhysX is deprecated. Use the AWheeledVehiclePawn from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Vehicle/CarlaWheeledVehicle.h(186): warning C4996: 'UWheeledVehicleMovementComponent4W': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um\winnt.h(610): warning C4005: 'TEXT': macro redefinition
+  C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Sensor/SceneCaptureSensor.h(15): fatal error C1083: Cannot open include file: 'Renderer/Public/GBufferView.h': No such file or directory
+  [7/16] Module.Carla.gen.4_of_8.cpp
+  C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um\winnt.h(610): warning C4005: 'TEXT': macro redefinition
+  C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(120): warning C4996: 'UWheeledVehicleMovementComponent': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(148): warning C4996: 'UVehicleWheel': PhysX is deprecated. Use the UChaosVehicleWheel from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Vehicle/CarlaWheeledVehicle.h(70): warning C4996: 'AWheeledVehicle': PhysX is deprecated. Use the AWheeledVehiclePawn from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Vehicle/CarlaWheeledVehicle.h(186): warning C4996: 'UWheeledVehicleMovementComponent4W': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Sensor/SceneCaptureSensor.h(15): fatal error C1083: Cannot open include file: 'Renderer/Public/GBufferView.h': No such file or directory
+  [8/16] Module.Carla.2_of_4.cpp
+  C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um\winnt.h(610): warning C4005: 'TEXT': macro redefinition
+  C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(120): warning C4996: 'UWheeledVehicleMovementComponent': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(148): warning C4996: 'UVehicleWheel': PhysX is deprecated. Use the UChaosVehicleWheel from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Vehicle/CarlaWheeledVehicle.h(70): warning C4996: 'AWheeledVehicle': PhysX is deprecated. Use the AWheeledVehiclePawn from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Vehicle/CarlaWheeledVehicle.h(186): warning C4996: 'UWheeledVehicleMovementComponent4W': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/MapGen/SoilTypeManager.cpp(26): warning C4458: declaration of 'LargeMapManager' hides class member
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\MapGen/SoilTypeManager.h(54): note: see declaration of 'ASoilTypeManager::LargeMapManager'
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Sensor/SceneCaptureSensor.h(15): fatal error C1083: Cannot open include file: 'Renderer/Public/GBufferView.h': No such file or directory
+  [9/16] Module.Carla.1_of_4.cpp
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(120): warning C4996: 'UWheeledVehicleMovementComponent': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(148): warning C4996: 'UVehicleWheel': PhysX is deprecated. Use the UChaosVehicleWheel from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Vehicle/CarlaWheeledVehicle.h(70): warning C4996: 'AWheeledVehicle': PhysX is deprecated. Use the AWheeledVehiclePawn from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Vehicle/CarlaWheeledVehicle.h(186): warning C4996: 'UWheeledVehicleMovementComponent4W': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um\winnt.h(610): warning C4005: 'TEXT': macro redefinition
+  C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Sensor/SceneCaptureSensor.h(15): fatal error C1083: Cannot open include file: 'Renderer/Public/GBufferView.h': No such file or directory
+  [10/16] Module.CarlaTools.cpp
+  C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um\winnt.h(610): warning C4005: 'TEXT': macro redefinition
+  C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(120): warning C4996: 'UWheeledVehicleMovementComponent': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent fron the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla\Vehicle\WheeledVehicleMovementComponentNW.h(148): warning C4996: 'UVehicleWheel': PhysX is deprecated. Use the UChaosVehicleWheel from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Vehicle/CarlaWheeledVehicle.h(70): warning C4996: 'AWheeledVehicle': PhysX is deprecated. Use the AWheeledVehiclePawn from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\carla\Unreal\CarlaUE4\Plugins\Carla\Source\Carla/Vehicle/CarlaWheeledVehicle.h(186): warning C4996: 'UWheeledVehicleMovementComponent4W': PhysX is deprecated. Use the UChaosWheeledVehicleMovementComponent from the ChaosVehiclePhysics Plugin. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:/carla/Unreal/CarlaUE4/Plugins/CarlaTools/Source/CarlaTools/Private/MapGeneratorWidget.cpp(16): fatal error C1083: Cannot open include file: 'Editor/FoliageEdit/Public/FoliageEdMode.h': No such file or directory
+make: *** [CarlaUE4Editor] Error 6
+
+C:\carla>
