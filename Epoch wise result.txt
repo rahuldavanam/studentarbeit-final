@@ -1,57 +1,3 @@
-V5 epoch results - first model to work
-
-Epoch [1/50], Train Loss: 0.0023, test Loss: 0.0086, LR: 0.000010
-Epoch [2/50], Train Loss: 0.0015, test Loss: 0.0104, LR: 0.000010
-Epoch [3/50], Train Loss: 0.0012, test Loss: 0.0089, LR: 0.000010
-Epoch [4/50], Train Loss: 0.0010, test Loss: 0.0083, LR: 0.000010
-Epoch [5/50], Train Loss: 0.0009, test Loss: 0.0076, LR: 0.000010
-Epoch [6/50], Train Loss: 0.0008, test Loss: 0.0085, LR: 0.000010
-Epoch [7/50], Train Loss: 0.0008, test Loss: 0.0083, LR: 0.000010
-Epoch [8/50], Train Loss: 0.0007, test Loss: 0.0085, LR: 0.000010
-Epoch [9/50], Train Loss: 0.0006, test Loss: 0.0082, LR: 0.000010
-Epoch [10/50], Train Loss: 0.0006, test Loss: 0.0071, LR: 0.000010
-Epoch [11/50], Train Loss: 0.0006, test Loss: 0.0074, LR: 0.000010
-Epoch [12/50], Train Loss: 0.0005, test Loss: 0.0072, LR: 0.000010
-Epoch [13/50], Train Loss: 0.0005, test Loss: 0.0071, LR: 0.000010
-Epoch [14/50], Train Loss: 0.0005, test Loss: 0.0069, LR: 0.000010
-Epoch [15/50], Train Loss: 0.0004, test Loss: 0.0074, LR: 0.000010
-Epoch [16/50], Train Loss: 0.0004, test Loss: 0.0074, LR: 0.000010
-Epoch [17/50], Train Loss: 0.0003, test Loss: 0.0071, LR: 0.000010
-Epoch [18/50], Train Loss: 0.0003, test Loss: 0.0072, LR: 0.000010
-Epoch [19/50], Train Loss: 0.0003, test Loss: 0.0073, LR: 0.000010
-Epoch [20/50], Train Loss: 0.0003, test Loss: 0.0080, LR: 0.000001
-Epoch [21/50], Train Loss: 0.0003, test Loss: 0.0074, LR: 0.000001
-Epoch [22/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000001
-Epoch [23/50], Train Loss: 0.0002, test Loss: 0.0075, LR: 0.000001
-Epoch [24/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000001
-Epoch [25/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000001
-Epoch [26/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [27/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [28/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [29/50], Train Loss: 0.0002, test Loss: 0.0074, LR: 0.000000
-Epoch [30/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [31/50], Train Loss: 0.0002, test Loss: 0.0074, LR: 0.000000
-Epoch [32/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [33/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [34/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [35/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [36/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [37/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [38/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [39/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [40/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [41/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [42/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [43/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [44/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [45/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [46/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [47/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [48/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [49/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Epoch [50/50], Train Loss: 0.0002, test Loss: 0.0073, LR: 0.000000
-Training complete
-
 V6 epoch results - reduced validation dataset to 233  - Model which is being used
 Epoch [1/30], Train Loss: 0.0119, test Loss: 0.0227, LR: 0.000010
 Epoch [2/30], Train Loss: 0.0026, test Loss: 0.0071, LR: 0.000010
@@ -83,39 +29,6 @@ Epoch [27/30], Train Loss: 0.0003, test Loss: 0.0013, LR: 0.000001
 Epoch [28/30], Train Loss: 0.0003, test Loss: 0.0013, LR: 0.000001
 Epoch [29/30], Train Loss: 0.0003, test Loss: 0.0013, LR: 0.000001
 Epoch [30/30], Train Loss: 0.0002, test Loss: 0.0013, LR: 0.000000
-Training complete
-
-v7 results - removed outliers in training dataset
-Epoch [1/30], Train Loss: 0.0235, test Loss: 0.0138, LR: 0.000010
-Epoch [2/30], Train Loss: 0.0021, test Loss: 0.0055, LR: 0.000010
-Epoch [3/30], Train Loss: 0.0011, test Loss: 0.0033, LR: 0.000010
-Epoch [4/30], Train Loss: 0.0008, test Loss: 0.0026, LR: 0.000010
-Epoch [5/30], Train Loss: 0.0007, test Loss: 0.0025, LR: 0.000010
-Epoch [6/30], Train Loss: 0.0006, test Loss: 0.0020, LR: 0.000010
-Epoch [7/30], Train Loss: 0.0005, test Loss: 0.0017, LR: 0.000010
-Epoch [8/30], Train Loss: 0.0005, test Loss: 0.0016, LR: 0.000010
-Epoch [9/30], Train Loss: 0.0004, test Loss: 0.0015, LR: 0.000010
-Epoch [10/30], Train Loss: 0.0004, test Loss: 0.0014, LR: 0.000010
-Epoch [11/30], Train Loss: 0.0004, test Loss: 0.0013, LR: 0.000010
-Epoch [12/30], Train Loss: 0.0003, test Loss: 0.0013, LR: 0.000010
-Epoch [13/30], Train Loss: 0.0003, test Loss: 0.0012, LR: 0.000010
-Epoch [14/30], Train Loss: 0.0003, test Loss: 0.0012, LR: 0.000010
-Epoch [15/30], Train Loss: 0.0003, test Loss: 0.0012, LR: 0.000010
-Epoch [16/30], Train Loss: 0.0003, test Loss: 0.0014, LR: 0.000010
-Epoch [17/30], Train Loss: 0.0002, test Loss: 0.0012, LR: 0.000010
-Epoch [18/30], Train Loss: 0.0002, test Loss: 0.0012, LR: 0.000010
-Epoch [19/30], Train Loss: 0.0002, test Loss: 0.0013, LR: 0.000010
-Epoch [20/30], Train Loss: 0.0002, test Loss: 0.0012, LR: 0.000010
-Epoch [21/30], Train Loss: 0.0002, test Loss: 0.0011, LR: 0.000010
-Epoch [22/30], Train Loss: 0.0002, test Loss: 0.0011, LR: 0.000010
-Epoch [23/30], Train Loss: 0.0002, test Loss: 0.0012, LR: 0.000010
-Epoch [24/30], Train Loss: 0.0002, test Loss: 0.0010, LR: 0.000010
-Epoch [25/30], Train Loss: 0.0002, test Loss: 0.0011, LR: 0.000010
-Epoch [26/30], Train Loss: 0.0002, test Loss: 0.0011, LR: 0.000010
-Epoch [27/30], Train Loss: 0.0001, test Loss: 0.0011, LR: 0.000010
-Epoch [28/30], Train Loss: 0.0001, test Loss: 0.0011, LR: 0.000010
-Epoch [29/30], Train Loss: 0.0001, test Loss: 0.0011, LR: 0.000010
-Epoch [30/30], Train Loss: 0.0001, test Loss: 0.0010, LR: 0.000010
 Training complete
 
 
